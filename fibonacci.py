@@ -28,4 +28,6 @@ else:
     term2 = term3
     print(term3, end=" ")
 
+print()
+
 
