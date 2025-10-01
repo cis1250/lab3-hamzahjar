@@ -19,9 +19,9 @@ if i == 1:
   print(term1)
 elif i == 2:
   term3 = term2
-  print(term1, term2, end=" ")
-else:
   print(term1, term2)
+else:
+  print(term1, term2, end=" ")
   for _ in range(3, i + 1):
     term3 = term1 + term2
     term1 = term2
